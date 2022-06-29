@@ -26,6 +26,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.summerupdate.init.SummerupdateModTabs;
+import net.mcreator.summerupdate.init.SummerupdateModItems;
+import net.mcreator.summerupdate.init.SummerupdateModEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -40,8 +44,11 @@ public class SummerupdateMod {
 	private static int messageID = 0;
 
 	public SummerupdateMod() {
-
+		SummerupdateModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		SummerupdateModItems.REGISTRY.register(bus);
+		SummerupdateModEntities.REGISTRY.register(bus);
 
 	}
 

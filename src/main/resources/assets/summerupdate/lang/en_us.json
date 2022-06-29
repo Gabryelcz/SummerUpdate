@@ -1,1 +1,13 @@
-{}
+{
+  "item.summerupdate.snorkels_leggings": "Snorkels Leggings",
+  "item.summerupdate.fins_leggings": "Fins Leggings",
+  "item.summerupdate.snorkels_chestplate": "Snorkels Body",
+  "entity.summerupdate.crab": "Crab",
+  "itemGroup.tabsummer_update": "Summer Update",
+  "item.summerupdate.fins_chestplate": "Fins Body",
+  "item.summerupdate.fins_boots": "Fins",
+  "item.summerupdate.snorkels_boots": "Snorkels Boots",
+  "item.summerupdate.snorkels_helmet": "Snorkels",
+  "item.summerupdate.fins_helmet": "Fins Helmet",
+  "item.summerupdate.crab_spawn_egg": "Crab Spawn Egg"
+}
